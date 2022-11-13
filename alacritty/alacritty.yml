@@ -1,0 +1,93 @@
+env:
+  TERM: xterm-256color
+
+window:
+  dimensions:
+    columns: 140
+    lines: 36
+
+
+  # Window title
+  title: Alacritty
+
+  # Allow terminal applications to change Alacritty's window title.
+  dynamic_title: true
+
+  # Window class (Linux/BSD only):
+  class:
+    # Application instance name
+    instance: Alacritty
+    # General application class
+    general: Alacritty
+
+
+scrolling:
+  history: 10000
+
+  # Scrolling distance multiplier.
+  multiplier: 3
+
+# Font configuration
+font:
+  # Normal (roman) font face
+  normal:
+    # Font family
+    #
+    # Default:
+    #   - (macOS) Menlo
+    #   - (Linux/BSD) monospace
+    #   - (Windows) Consolas
+    family: Iosevka Term
+
+    # The `style` can be specified to pick a specific face.
+    style: Regular
+
+  # Bold font face
+  bold:
+    # value specified for the normal font.
+    family: Hack Nerd Font
+
+    # The `style` can be specified to pick a specific face.
+    style: Bold
+
+  # Italic font face
+  italic:
+    family: Hack Nerd Font
+
+    # The `style` can be specified to pick a specific face.
+    style: Italic
+
+  # Bold italic font face
+  bold_italic:
+    # value specified for the normal font.
+    family: Hack Nerd Font 
+
+    # The `style` can be specified to pick a specific face.
+    style: Bold 
+
+  # Point size
+  size: 11
+
+colors:
+  # Default colors
+  primary:
+    background: '#1b191b'
+    foreground: '#FFFFFF'
+
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+
+
+  # Normal colors
+  normal:
+    black:   '#0F0F0F'
+    red:     '#EF3D3D'
+    green:   '#48FC8B'
+    yellow:  '#F8BA4D'
+    blue:    '#3FA3E9'
+    magenta: '#C172EC'
+    cyan:    '#45E6BA'
+    white:   '#FFFFFF'
+
