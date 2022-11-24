@@ -29,7 +29,8 @@ sudo gem install fusuma
 mkdir -p ~/.config/fusuma        # create config directory
 #nano ~/.config/fusuma/config.yml # edit config file.
 
-echo """swipe:
+echo """
+swipe:
   3:
     left:
       command: "xdotool key alt+Right" # History forward
@@ -56,7 +57,7 @@ pinch:
 hold:
   4:
     command: "xdotool key super" # Activity
-    """ >> ~/.config/fusuma/config.yml
+""" >> ~/.config/fusuma/config.yml
 
 sudo snap remove --purge firefox
 sudo snap remove --purge snap-store
